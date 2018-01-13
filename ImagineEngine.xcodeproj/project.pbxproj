@@ -224,6 +224,7 @@
 		815BB2BD200A3603009445E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815BB2BC200A3603009445E4 /* AppDelegate.swift */; };
 		815BB2C1200A3603009445E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815BB2C0200A3603009445E4 /* Assets.xcassets */; };
 		815BB2C4200A3603009445E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815BB2C2200A3603009445E4 /* Main.storyboard */; };
+		815BB2CB200A36CF009445E4 /* AsteroidBlasterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815BB2CA200A36CF009445E4 /* AsteroidBlasterScene.swift */; };
 		C800CE2D1FA77F74008EE08D /* BundleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800CE2C1FA77F74008EE08D /* BundleProtocol.swift */; };
 		C800CE2E1FA77F74008EE08D /* BundleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800CE2C1FA77F74008EE08D /* BundleProtocol.swift */; };
 		C800CE301FA782EA008EE08D /* TextureFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800CE2F1FA782EA008EE08D /* TextureFormat.swift */; };
@@ -446,6 +447,7 @@
 		815BB2C3200A3603009445E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		815BB2C5200A3603009445E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		815BB2C6200A3603009445E4 /* AsteroidBlasterMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AsteroidBlasterMacOS.entitlements; sourceTree = "<group>"; };
+		815BB2CA200A36CF009445E4 /* AsteroidBlasterScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidBlasterScene.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* ImagineEngine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImagineEngine.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* ImagineEngineTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImagineEngineTests.plist; sourceTree = "<group>"; };
 		C800CE2C1FA77F74008EE08D /* BundleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleProtocol.swift; sourceTree = "<group>"; };
@@ -710,6 +712,7 @@
 				815BB2C2200A3603009445E4 /* Main.storyboard */,
 				815BB2C5200A3603009445E4 /* Info.plist */,
 				815BB2C6200A3603009445E4 /* AsteroidBlasterMacOS.entitlements */,
+				815BB2CA200A36CF009445E4 /* AsteroidBlasterScene.swift */,
 			);
 			path = AsteroidBlasterMacOS;
 			sourceTree = "<group>";
@@ -1344,6 +1347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				815BB2BD200A3603009445E4 /* AppDelegate.swift in Sources */,
+				815BB2CB200A36CF009445E4 /* AsteroidBlasterScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
