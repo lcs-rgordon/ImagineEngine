@@ -225,6 +225,7 @@
 		815BB2C1200A3603009445E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815BB2C0200A3603009445E4 /* Assets.xcassets */; };
 		815BB2C4200A3603009445E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815BB2C2200A3603009445E4 /* Main.storyboard */; };
 		815BB2CB200A36CF009445E4 /* AsteroidBlasterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815BB2CA200A36CF009445E4 /* AsteroidBlasterScene.swift */; };
+		815BB2CD200A37CF009445E4 /* ImagineEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD21B7361F92E75A0034A7CE /* ImagineEngine.framework */; };
 		C800CE2D1FA77F74008EE08D /* BundleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800CE2C1FA77F74008EE08D /* BundleProtocol.swift */; };
 		C800CE2E1FA77F74008EE08D /* BundleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800CE2C1FA77F74008EE08D /* BundleProtocol.swift */; };
 		C800CE301FA782EA008EE08D /* TextureFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C800CE2F1FA782EA008EE08D /* TextureFormat.swift */; };
@@ -511,6 +512,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815BB2CD200A37CF009445E4 /* ImagineEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +680,7 @@
 				52D6D99C1BEFF38C002C0205 /* Configs */,
 				815BB2BB200A3603009445E4 /* AsteroidBlasterMacOS */,
 				52D6D97D1BEFF229002C0205 /* Products */,
+				815BB2CC200A37CF009445E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -715,6 +718,13 @@
 				815BB2CA200A36CF009445E4 /* AsteroidBlasterScene.swift */,
 			);
 			path = AsteroidBlasterMacOS;
+			sourceTree = "<group>";
+		};
+		815BB2CC200A37CF009445E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8933C7811EB5B7E0000D00A4 /* Sources */ = {
